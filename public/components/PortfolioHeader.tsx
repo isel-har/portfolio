@@ -62,7 +62,8 @@ const Header = () => {
                      onClick={() => scrollToSection('contact')}>
                     Contact
                 </Button>
-                <Button colorScheme='gray' size='md' variant='outline'>
+                <Button colorScheme='gray' size='md' variant='outline'
+                  onClick={() => window.open("https://drive.google.com/file/d/1EwzjRs1m1fhcQFyjysVVzVZssfxXNiD8/view", "_blank")}>
                     Resume
                 </Button>
             </ButtonGroup>
