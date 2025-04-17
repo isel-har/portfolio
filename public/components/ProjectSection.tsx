@@ -70,7 +70,7 @@ const ProjectsSection = () => {
       ],
       imageUrl: '../assets/inception.webp',
       technologies: ['Docker', 'Bash', 'Linux'],
-      projectUrl: 'https://example.com/weather'
+      // projectUrl: 'https://example.com/weather'
     },
     {
       title: 'IRC Server',
