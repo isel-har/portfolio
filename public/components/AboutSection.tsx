@@ -1,6 +1,7 @@
 "use client"
 
 import { Box, Heading, Text, Flex, Image, useColorModeValue, Stack, Divider } from '@chakra-ui/react';
+import { PiCode } from "react-icons/pi";
 
 const AboutSection = () => {
   const bgColor = useColorModeValue('gray.50', 'gray.800');
@@ -20,8 +21,8 @@ const AboutSection = () => {
       >
         {/* Circular Profile Image with subtle shadow */}
         <Box
-          w={{ base: '180px', md: '280px' }}
-          h={{ base: '180px', md: '280px' }}
+          w={{ base: '180px', md: '200px' }}
+          h={{ base: '180px', md: '200px' }}
           flexShrink={0}
           position="relative"
           _hover={{
@@ -31,7 +32,7 @@ const AboutSection = () => {
           transition="transform 0.2s ease"
         >
           <Image
-            src="../assets"
+            src="https://media.licdn.com/dms/image/v2/D4E03AQF5uezNyyar7g/profile-displayphoto-shrink_800_800/B4EZZEG4cAHMAo-/0/1744899378107?e=1750291200&v=beta&t=F8bnVCRVwwuQl-bluAGjVvK6PNEE1MVB1U6Ga7N5LlQ"
             alt="Ismail El'harrab"
             borderRadius="full"
             boxSize="100%"
